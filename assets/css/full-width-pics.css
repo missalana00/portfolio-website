@@ -1,0 +1,131 @@
+/*
+ * Start Bootstrap - Full Width Pics (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image-bg-fluid-height {
+    background-image: url("../img/plsWork.jpeg");
+    background-size: 100% auto;
+    padding: 300px 0;
+    background-repeat: no-repeat;
+    background-position: center; 
+    min-height: 100%;
+    width: auto;
+
+}
+
+.image-bg-fixed-height {
+    background-color: #222;
+    height: 450px;
+    position: relative;
+    z-index:0;
+}
+
+.mypic {
+    position: absolute;
+    z-index: 100;
+}
+
+.img-center {
+    margin: 0 auto;;
+}
+
+section {
+    padding: 75px 0;
+    height: 750px; 
+}
+
+section.tech-container {
+    padding: 75px 0;
+    height: 955px;
+    background-image: /*url("../img/Technologies_background.jpg"); */ 
+    background-size: 100%
+}
+
+.section-heading {
+    margin: 30px 0;
+    font-size: 4em;
+}
+
+
+h1.project-heading {
+    padding: 35px 0;
+    text-align: center;
+    color: #fff; 
+    font-size: 4em; 
+}
+
+
+h1.tech-heading {
+    padding: 35px 0;
+    text-align: center;
+    color: #fff;  
+}
+
+
+.section-lead {
+    margin: 30px 0;
+}
+
+.section-paragraph {
+    margin: 30px 0;
+}
+
+div.project-container {
+    background-color: lightgrey;
+    padding: 40px 50px;
+
+}
+
+img.card-img-top {
+    height: 300px;
+    width: 300px;
+}
+
+p.card-text {
+    color: #fff;
+}
+
+h4.card-title {
+    color: #fff;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+div.row {
+    padding: 0 0 100px 0;
+ }
+
+div.card-block {
+    height: 60px;
+    width: 300px;
+    margin: auto;
+}
+
+div.card.card-cascade.narrower.col-md-4 {
+    background-color: #fff;
+}
+
+
+
+
+
+
